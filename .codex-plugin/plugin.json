@@ -1,0 +1,35 @@
+{
+  "name": "video-remake-pipeline",
+  "version": "0.1.0",
+  "description": "Turn a video URL or local video into sampled frames, reverse-engineered image prompts, generated storyboard images, Chinese image-to-video prompts, and a 4K finishing guide.",
+  "author": {
+    "name": "sunqingyu"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "video-remake",
+    "storyboard",
+    "image-generation",
+    "prompt-reverse-engineering",
+    "image-to-video",
+    "upscale"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "视频复刻流水线",
+    "shortDescription": "从视频链接自动抽帧、生图并生成中文视频分镜提示词",
+    "longDescription": "输入一个视频链接或本地视频，自动完成素材接入、每两秒抽帧、视觉反推、分镜图片生成、统一命名、中文图生视频提示词和 4K 后期建议。",
+    "developerName": "sunqingyu",
+    "category": "Creativity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "复刻这个视频链接，按每两秒抽帧完成整套流程。",
+      "分析这个本地视频，生成分镜图片和中文视频提示词。",
+      "把这些生成片段整理并给出 4K 放大方案。"
+    ],
+    "brandColor": "#D4A94F"
+  }
+}
