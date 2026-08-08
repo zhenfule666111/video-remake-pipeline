@@ -1,3 +1,5 @@
+![视频复刻流水线分镜网格](assets/github-hero-grid.jpg)
+
 # 视频复刻流水线
 
 个人 Codex Skill：把一个视频链接或本地视频自动整理成可复刻的分镜生产包。
